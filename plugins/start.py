@@ -46,8 +46,7 @@ async def start(client, message):
                                       [InlineKeyboardButton("DEVELOPER🛸", url="https://t.me/F9Devs"),
                                        InlineKeyboardButton("GET PREMIUM👑", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
                                       [InlineKeyboardButton("WATCH MOVIES🍿", url='https://t.me/MOVIEBEEZ'),
-                                       InlineKeyboardButton("HELP🥲", url='https://t.me/CALLADMIN_beebot')]
-                                      ]))
+                                       InlineKeyboardButton("HELP🥲", url='https://t.me/CALLADMIN_beebot') ]  ]))
 	    return
 	if id:
 	    if old == True:
