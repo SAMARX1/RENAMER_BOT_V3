@@ -46,36 +46,41 @@ async def start(client, message):
                                       [InlineKeyboardButton("DEVELOPER🛸", url="https://t.me/F9Devs"),
                                        InlineKeyboardButton("GET PREMIUM👑", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
                                       [InlineKeyboardButton("WATCH MOVIES🍿", url='https://t.me/MOVIEBEEZ'),
-                                       InlineKeyboardButton("HELP🥲", url='https://t.me/CALLADMIN_beebot') ]  ]))
-	    return
-	if id:
-	    if old == True:
-	        try:
-	            await client.send_message(id,"Your Frind Alredy Using Our Bot")
-	            await message.reply_text(text =f"""
-	Hello {wish} {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filename to rename it__
-	""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
-	        except:
-	             return
-	    else:
-	         await client.send_message(id,"Congrats! You Won 100MB Upload limit")
-	         _user_= find_one(int(id))
-	         limit = _user_["uploadlimit"]
-	         new_limit = limit + 104857600
-	         uploadlimit(int(id),new_limit)
-	         await message.reply_text(text =f"""
-	Hello {wish} {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filename to rename it__
-	""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+                                       InlineKeyboardButton("HELP🥲", url='https://t.me/CALLADMIN_beebot')]
+                                      ]))
+        return
+    if id:
+        if old == True:
+            try:
+                await client.send_message(id, "Your Friend is Already Using Our Bot")
+                await message.reply_photo(photo=LAZY_PIC,
+                                         caption=txt,
+                                         reply_markup=InlineKeyboardMarkup(
+                                             [[InlineKeyboardButton("🖌️HOW TO EDIT", url="https://t.me/LazyDeveloper")],
+                                              [InlineKeyboardButton("DEVELOPER🛸", url="https://t.me/F9Devs"),
+                                               InlineKeyboardButton("GET PREMIUM👑", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
+                                             [InlineKeyboardButton("WATCH MOVIES🍿", url='https://t.me/MOVIEBEEZ'),
+                                              InlineKeyboardButton("HELP🥲", url='https://t.me/CALLADMIN_beebot')]
+                                          ]))
+            except:
+                return
+        else:
+            await client.send_message(id, "🎉ᴄᴏɴɢʀᴀᴛᴇs ! ʏᴏᴜ ᴡᴏɴ 500 ᴍʙ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ ғʀᴏᴍ ʏᴏᴜʀ ʀᴇғᴇʀᴀʟ \n\nʀᴇғᴇʀ🎟️  ᴀɢᴀɪɴ  ᴛᴏ  ᴡɪɴ😀")
+            _user_ = find_one(int(id))
+            limit = _user_["uploadlimit"]
+            new_limit = limit + 536870912
+            uploadlimit(int(id), new_limit)
+            await message.reply_text(text=f"""
+	ʜᴇʟʟᴏ{wish} {message.from_user.first_name }\n\n
+	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ /FEATURES ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs
+	""", reply_to_message_id=message.id,
+                                     reply_markup=InlineKeyboardMarkup(
+                                         [[InlineKeyboardButton("🖌️HOW TO EDIT", url="https://t.me/LazyDeveloper")],
+                                          [InlineKeyboardButton("DEVELOPER🛸", url="https://youtube.com/F9Devs"),
+                                           InlineKeyboardButton("GET PREMIUM👑", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
+                                          [InlineKeyboardButton("WATCH MOVIES🍿", url='https://t.me/MOVIEBEEZ'),
+                                           InlineKeyboardButton("HELP🥲", url='https://t.me/CALLADMIN_beebot')]
+                                          ]))
 	         
 
 
