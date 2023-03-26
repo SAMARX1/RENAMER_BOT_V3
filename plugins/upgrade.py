@@ -51,7 +51,7 @@ async def upgradecm(bot,message):
 	**DIAMOND💎**
 	Daily Upload limit 100GB
 	Price Rs 59₹🇮🇳/ per Month
-	#access of premium features 
+	##access of premium features 
 	
 	**FOREIGN USER CONTACT ADMIN**
 	
