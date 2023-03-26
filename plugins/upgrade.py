@@ -4,59 +4,63 @@ from pyrogram import Client , filters
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
-	text = """**Free Plan User**
-	Daily  Upload limit 2GB
-	Price 0
+	text = """**CHOOSE YOUR PREFERRED PLAN**
+
 	
-	**VIP 1 ** 
+	**BASIC🎟️** 
 	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	price Rs 15₹🇮🇳/ per Month
 	
-	**VIP 2 **
+
+	**SUPER⚡**
 	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	Price Rs 29₹🇮🇳/ per Month
+
 	
-	**VIP3**
+	**DIAMOND💎**
 	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
+	Price Rs 59₹🇮🇳/ per Month
+	##access of premium features 
+
 	
+	**FOREIGN USER CONTACT ADMIN**
 	
-	Pay Using Upi I'd ```9480251952@paytm```
-	
-	After Payment Send Screenshots Of 
-        Payment To Admin"""
+	CLICK 👇🏻**GET PREMIUM** BUTTON TO UPGRADE PLAN"""
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("GET PREMIUM👑 ",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")], 
+        			[InlineKeyboardButton("ADMIN👨‍💻",url = "https://t.me/CALLADMIN_beebot"),
+        			InlineKeyboardButton("PAYTM",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await update.message.edit(text = text,reply_markup = keybord)
 	
 
 @Client.on_message(filters.private & filters.command(["upgrade"]))
 async def upgradecm(bot,message):
-	text = """**Free Plan User**
-	Daily  Upload limit 2GB
-	Price 0
+	text = """**CHOOSE YOUR PREFERRED PLAN**
+
 	
-	**VIP 1 ** 
+	**BASIC🎟️** 
 	Daily  Upload  limit 10GB
-	Price Rs 55  🇮🇳/🌎 0.67$  per Month
+	Price Rs 15₹🇮🇳/ per month
+
 	
-	**VIP 2 **
+	**SUPER⚡**
 	Daily Upload limit 50GB
-	Price Rs 80  🇮🇳/🌎 0.97$  per Month
+	Price Rs 29₹🇮🇳/ per Month
+
 	
-	**VIP3**
+	**DIAMOND💎**
 	Daily Upload limit 100GB
-	Price Rs 150  🇮🇳/🌎 1.81$  per Month
+	Price Rs 59₹🇮🇳/ per Month
+	#access of premium features 
 	
+	**FOREIGN USER CONTACT ADMIN**
 	
-	Pay Using Upi I'd ```9480251952@paytm```
-	
-	After Payment Send Screenshots Of 
-        Payment To Admin"""
+	CLICK 👇🏻**GET PREMIUM** BUTTON TO UPGRADE PLAN """
 	keybord = InlineKeyboardMarkup([[ 
-        			InlineKeyboardButton("ADMIN 🛂",url = "https://t.me/mrlokaman")], 
-        			[InlineKeyboardButton("PayPal 🌎",url = "https://www.paypal.me/lokamanchendekar"),
-        			InlineKeyboardButton("Paytm",url = "https://p.paytm.me/xCTH/los89jy0")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
+        			InlineKeyboardButton("GET PREMIUM👑",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")], 
+        			[InlineKeyboardButton("ADMIN👨‍💻",url = "https://t.me/CALLADMIN_beebot"),
+        			InlineKeyboardButton("PAYTM",url = "https://cosmofeed.com/vig/6410a3933702d700208ace5b")],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]])
 	await message.reply_text(text = text,reply_markup = keybord)
+
+
+
