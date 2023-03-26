@@ -23,11 +23,11 @@ botid = token.split(':')[0]
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-	wish = "Good morning."
+	wish = "👋"
 elif 12 <= currentTime.hour < 12:
-	wish = 'Good afternoon.'
+	wish = '🤙'
 else:
-	wish = 'Good evening.'
+	wish = '✌️'
 
 #-------------------------------
 
@@ -93,10 +93,10 @@ async def send_doc(client,message):
        	try:
        		await client.get_chat_member(update_channel, user_id)
        	except UserNotParticipant:
-       		await message.reply_text("**__You are not subscribed my channel__** ",
+       		await message.reply_text("😧ʏᴏᴜ  ᴀʀᴇ  ɴᴏᴛ  sᴜʙsᴄʀɪʙᴇᴅ  ᴍʏ  ᴜᴘᴅᴀᴛᴇ🛸  ᴄʜᴀɴɴᴇʟ \nᴊᴏɪɴ  ᴛᴏ  ɢᴇᴛ  ʟᴀᴛᴇsᴛ💖 ғᴇᴀᴛᴜʀᴇs  ᴀɴᴅ  ᴜᴘᴅᴀᴛᴇs ᴏғ  ᴛʜɪs  ʙᴏᴛ . \n\n👇🏻ᴊᴏɪɴ  ᴀɴᴅ  sᴇɴᴅ  ғɪʟᴇ  ᴀɢᴀɪɴ👇🏻",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("UPDATE CHANNEL🛸" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        try:
            bot_data = find_one(int(botid))
@@ -104,7 +104,7 @@ async def send_doc(client,message):
            prsize = bot_data['total_size']
            user_deta = find_one(user_id)
        except:
-           await message.reply_text("Use About cmd first /about")
+           await message.reply_text("ɪғ  ʏᴏᴜ  ᴀʀᴇ  sᴇᴇɴ ᴛʜɪs  . ᴛʜᴇɴ  ʙᴏᴛ  ɪs  ɴᴏᴛ  ʀᴇsᴘᴏɴᴅɪɴɢ  ᴘʀᴏᴘᴇʀʟʏ  ᴅᴜᴇ  ᴛᴏ  ᴏᴠᴇʀʟᴏᴀᴅ . \n\nᴋɪɴᴅʟʏ  ᴄʟᴇᴀʀ  ᴀʟʟ  ʜɪsᴛᴏʀʏ  ᴏғ  ʙᴏᴛ  ᴀɴᴅ  ʀᴇsᴛᴀʀᴛ  ᴛʜᴇ  ʙᴏᴛ . ɪғ  sᴀᴍᴇ  ᴇʀʀᴏʀ  ᴘᴏᴘᴜᴘ  ᴀɢᴀɪɴ  ᴛʜᴇɴ  ᴄᴏɴᴛᴀᴄᴛ  ᴛʜᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ")
        try:
        	used_date = user_deta["date"]
        	buy_date= user_deta["prexdate"]
@@ -126,7 +126,7 @@ async def send_doc(client,message):
        conversion = datetime.timedelta(seconds=left)
        ltime = str(conversion)
        if left > 0:       	    
-       	await message.reply_text(f"```Sorry Dude I am not only for YOU \n Flood control is active so please wait for {ltime}```",reply_to_message_id = message.id)
+       	await message.reply_text(f"```ʏᴏᴜ  ᴀʀᴇ  ᴀ  🙂ғʀᴇᴇ  ᴜsᴇʀ  sᴏ  ᴡᴀɪᴛ ⚠️{ltime}⚠️ ᴛᴏ  ᴇᴅɪᴛ  ᴀɢᴀɪɴ  .  \n\nɢᴇᴛ  ᴘʀᴇᴍɪᴜᴍ⭐  ᴛᴏ  ᴀᴠᴏɪᴅ  ᴛɪᴍᴇ⌛ ʟɪᴍɪᴛ  ᴀɴᴅ  ɢᴇᴛ  ᴍᴏʀᴇ  ғᴇᴀᴛᴜʀᴇs📦```",reply_to_message_id = message.id)
        else:
        		# Forward a single message
            		
@@ -166,7 +166,7 @@ async def send_doc(client,message):
        		            await message.reply_text(f'Your Plane Expired On {buy_date}',quote=True)
        		            return
        		    else:
-       		          	await message.reply_text("Can't upload files bigger than 2GB ")
+       		          	await message.reply_text("🤍ʏᴏᴜ  ᴀʀᴇ  ɴᴏᴛ  ᴀ  ᴅɪᴀᴍᴏɴᴅ  ᴘʟᴀɴ  ᴜsᴇʀ☹️  sᴏ  ʏᴏᴜ  ᴄᴀɴɴ'ᴛ  ᴜᴘʟᴏᴀᴅ  ғɪʟᴇ  ʙɪɢɢᴇʀ  ᴛʜᴀɴ  2 ɢʙ  .  \n\nsᴜʙsᴄʀɪʙᴇᴅ  ᴅɪᴀᴍᴏɴᴅ💎 ᴘʟᴀɴ  ᴛᴏ  ᴜᴘʟᴏᴀᴅ ᴜᴘᴛᴏ🔥  4ɢʙ  ᴀɴᴅ  ɢᴇᴛ  ᴍᴏʀᴇ  ғᴇᴀᴛᴜʀᴇs📦")
        		          	return
        		else:
        		    if buy_date:
