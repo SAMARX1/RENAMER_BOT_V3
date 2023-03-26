@@ -13,6 +13,7 @@ from helper.date import add_date ,check_expi
 CHANNEL = os.environ.get('CHANNEL',"")
 import datetime
 from datetime import date as date_
+LAZY_PIC = os.environ.get("LAZY_PIC","")
 STRING = os.environ.get("STRING","")
 log_channel = int(os.environ.get("LOG_CHANNEL",""))
 token = os.environ.get('TOKEN','')
@@ -31,19 +32,22 @@ else:
 #-------------------------------
 
 @Client.on_message(filters.private & filters.command(["start"]))
-async def start(client,message):
-	old = insert(int(message.chat.id))
-	try:
-	    id = message.text.split(' ')[1]
-	except:
-	    await message.reply_text(text =f"""
-	Hello {wish} {message.from_user.first_name }
-	__I am file renamer bot, Please sent any telegram 
-	**Document Or Video** and enter new filename to rename it__
-	""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/lntechnical") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/LNtechnical") ]  ]))
+async def start(client, message):
+    old = insert(int(message.chat.id))
+    try:
+        id = message.text.split(' ')[1]
+    except:
+        txt=f"""ʜᴇʟʟᴏ{wish} {message.from_user.first_name } \n
+	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ /FEATURES ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs"""
+        await message.reply_photo(photo=LAZY_PIC,
+                                caption=txt,
+                                reply_markup=InlineKeyboardMarkup(
+                                      [[InlineKeyboardButton("🖌️HOW TO EDIT", url="https://t.me/LazyDeveloper")],
+                                      [InlineKeyboardButton("DEVELOPER🛸", url="https://t.me/F9Devs"),
+                                       InlineKeyboardButton("GET PREMIUM👑", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
+                                      [InlineKeyboardButton("WATCH MOVIES🍿", url='https://t.me/MOVIEBEEZ'),
+                                       InlineKeyboardButton("HELP🥲", url='https://t.me/CALLADMIN_beebot')]
+                                      ]))
 	    return
 	if id:
 	    if old == True:
