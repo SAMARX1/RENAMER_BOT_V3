@@ -58,7 +58,7 @@ async def start(client, message):
                                              [[InlineKeyboardButton("🖌️HOW TO EDIT", url="https://t.me/LazyDeveloper")],
                                               [InlineKeyboardButton("DEVELOPER🛸", url="https://t.me/F9Devs"),
                                                InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
-                                             [InlineKeyboardButton(☄️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ📦", url='https://t.me/MOVIEBEEZ')
+                                             [InlineKeyboardButton("☄️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ📦", url='https://t.me/MOVIEBEEZ')
                                           ]))
             except:
                 return
