@@ -44,8 +44,8 @@ async def start(client, message):
                                 reply_markup=InlineKeyboardMarkup(
                                       [[InlineKeyboardButton("📐ʜᴏᴡ ᴛᴏ ᴇᴅɪᴛ🔧", url="https://telegra.ph/%CA%9C%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%E1%B4%87%E1%B4%85%C9%AA%E1%B4%9B-%D2%93%C9%AA%CA%9F%E1%B4%87-04-16")],
                                       [InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ🛸", url="https://t.me/F9Devs"),
-                                       InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
-                                      [InlineKeyboardButton("⚙️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ🚀", url='https://t.me/CALLADMIN_beebot')]
+                                       InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://t.me/CALLADMIN_beebot')],
+                                      [InlineKeyboardButton("⚙️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ🚀", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')]
                                       ]))
         return
     if id:
