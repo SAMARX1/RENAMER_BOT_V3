@@ -38,14 +38,14 @@ async def start(client, message):
         id = message.text.split(' ')[1]
     except:
         txt=f"""ʜᴇʟʟᴏ{wish} {message.from_user.first_name } \n
-	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ /FEATURES ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs"""
+	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ **/features** ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🖌️HOW TO EDIT", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("DEVELOPER🛸", url="https://t.me/F9Devs"),
+                                      [[InlineKeyboardButton("📐ʜᴏᴡ ᴛᴏ ᴇᴅɪᴛ🔧", url="https://telegra.ph/%CA%9C%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%E1%B4%87%E1%B4%85%C9%AA%E1%B4%9B-%D2%93%C9%AA%CA%9F%E1%B4%87-04-16")],
+                                      [InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ🛸", url="https://t.me/F9Devs"),
                                        InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
-                                      [InlineKeyboardButton("☄️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ📦", url='https://t.me/MOVIEBEEZ')]
+                                      [InlineKeyboardButton("⚙️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ🚀", url='https://t.me/CALLADMIN_beebot')]
                                       ]))
         return
     if id:
@@ -55,10 +55,10 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🖌️HOW TO EDIT", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("DEVELOPER🛸", url="https://t.me/F9Devs"),
-                                               InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
-                                             [InlineKeyboardButton("☄️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ📦", url='https://t.me/MOVIEBEEZ')]
+                                             [[InlineKeyboardButton("📐ʜᴏᴡ ᴛᴏ ᴇᴅɪᴛ🔧", url="https://telegra.ph/%CA%9C%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%E1%B4%87%E1%B4%85%C9%AA%E1%B4%9B-%D2%93%C9%AA%CA%9F%E1%B4%87-04-16")],
+                                              [InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ🛸", url="https://t.me/F9Devs"),
+                                               InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://t.me/CALLADMIN_beebot')],
+                                             [InlineKeyboardButton("⚙️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ🚀", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')]
                                           ]))
             except:
                 return
@@ -73,10 +73,10 @@ async def start(client, message):
 	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ /FEATURES ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🖌️HOW TO EDIT", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("DEVELOPER🛸", url="https://youtube.com/F9Devs"),
-                                           InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')],
-                                          [InlineKeyboardButton("☄️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ📦", url='https://t.me/MOVIEBEEZ')]
+                                         [[InlineKeyboardButton("📐ʜᴏᴡ ᴛᴏ ᴇᴅɪᴛ🔧", url="https://telegra.ph/%CA%9C%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%E1%B4%87%E1%B4%85%C9%AA%E1%B4%9B-%D2%93%C9%AA%CA%9F%E1%B4%87-04-16")],
+                                          [InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ🛸", url="https://youtube.com/F9Devs"),
+                                           InlineKeyboardButton("ʜᴇʟᴘ🐶", url='https://t.me/CALLADMIN_beebot')],
+                                          [InlineKeyboardButton("⚙️ᴜᴘɢʀᴀᴅᴇ ᴘʟᴀɴ🚀", url='https://cosmofeed.com/vig/6410a3933702d700208ace5b')]
                                           ]))
 	         
 
