@@ -10,4 +10,4 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	await message.reply_text(f"**💡FEATURES OF THIS BOT👇🏻 \n\n🚀FREE FEATURES \n📌rename file or video \n📌custom caption and thumbnail support \n📌file/video convert \n\n🚀PREMIUM FEATURES \n📌4GB upload support \n📌video trim and merge \n📌 audio change and remove \n📌3x download speed \n\n📦/UPGRADE PLAN TO USE PREMIUM💥 FEATURES**",quote=True)
+	await message.reply_text(f"**💡ᴛʀʏ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs👇🏻 \n\n🚀𝘕𝘖𝘙𝘔𝘈𝘓 𝘍𝘌𝘈𝘛𝘜𝘙𝘌𝘚 \n📌ʀᴇɴᴀᴍᴇ ғɪʟᴇ ᴏʀ ᴠɪᴅᴇᴏ \n📌sᴇᴛ ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ \n📌sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ \n📌ғɪʟᴇ/ᴠɪᴅᴇᴏ ᴄᴏɴᴠᴇʀᴛᴇʀ \n\n🚀𝘗𝘙𝘌𝘔𝘐𝘜𝘔 𝘍𝘌𝘈𝘛𝘜𝘙𝘌𝘚  \n📌4ɢʙ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ \n📌ᴠɪᴅᴇᴏ ᴛʀɪᴍ ᴀɴᴅ ᴍᴇʀɢᴇ \n📌ᴀᴜᴅɪᴏ ᴄʜᴀɴɢᴇ ᴏʀ ʀᴇᴍᴏᴠᴇ \n📌3x ᴅᴏᴡɴʟᴏᴀᴅ sᴘᴇᴇᴅ \n\n📦/upgrade ᴘʟᴀɴ ᴛᴏ ᴜsᴇ ᴘʀᴇᴍɪᴜᴍ ғᴇᴀᴛᴜʀᴇs**",quote=True)
