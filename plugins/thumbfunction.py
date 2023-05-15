@@ -8,7 +8,7 @@ async def viewthumb(client,message):
 		if thumb :
 			await client.send_photo(message.chat.id,photo =f"{thumb}")
 		else:
-			await message.reply_text("**ʏᴏᴜ ᴅᴏɴᴛ😐 ʜᴀᴠᴇ ᴀɴʏ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ ᴠɪᴇᴡ👀 \n\nsᴇɴᴅ ᴀ ᴘɪᴄᴛᴜʀᴇ🖼️ ᴛᴏ sᴇᴛ ᴀs ᴀ ᴛʜᴜᴍʙɴᴀɪʟ**")
+			await message.reply_text("ʏᴏᴜ ᴅᴏɴᴛ😐 ʜᴀᴠᴇ ᴀɴʏ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ ᴠɪᴇᴡ👀 \n\nsᴇɴᴅ ᴀ ᴘɪᴄᴛᴜʀᴇ🖼️ ᴛᴏ sᴇᴛ ᴀs ᴀ ᴛʜᴜᴍʙɴᴀɪʟ")
 	
 	
 @Client.on_message(filters.private & filters.command(['delthumb']))
