@@ -40,7 +40,7 @@ async def rename(bot,update):
 	chat_id = update.message.chat.id
 	id = update.message.reply_to_message_id
 	await update.message.delete()
-	await update.message.reply_text(f"ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ⌨️ ʏᴏᴜʀ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴏʀ ᴄᴏᴘʏ✂️ ᴘᴀsᴛᴇ ᴏʟᴅ ғɪʟᴇ ɴᴀᴍᴇ\n\nNote:- Extension Not Required",reply_to_message_id = id,
+	await update.message.reply_text(f"**ᴘʟᴇᴀsᴇ  ᴇɴᴛᴇʀ⌨️  ʏᴏᴜʀ  ɴᴇᴡ  ғɪʟᴇ  ɴᴀᴍᴇ  ᴏʀ  ᴄᴏᴘʏ✂️ ᴘᴀsᴛᴇ  ᴏʟᴅ  ғɪʟᴇ  ɴᴀᴍᴇ**\n\nNote:- Extension Not Required",reply_to_message_id = id,
 	reply_markup=ForceReply(True) )
 	dateupdate(chat_id,date)
 	
