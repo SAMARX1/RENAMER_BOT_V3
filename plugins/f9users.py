@@ -1,4 +1,4 @@
-```python
+
 
 import os
 
@@ -42,8 +42,9 @@ async def start(client, message):
 
     )
 
-# Run the client
 
-client.run()
 
-```
+
+
+
+
