@@ -8,39 +8,27 @@ from pyrogram import Client , filters
 
 async def upgrade(bot,update):
 
-	text = """**CHOOSE YOUR PREFERRED PLAN**
+	text = """**🅲︎🅷︎🅾︎🅾︎🆂︎🅴︎  🅿︎🅻︎🅰︎🅽︎**
 
+
+	**🅑︎🅐︎🅢︎🅘︎🅒︎🎟️
+        Daily Upload limit 10GB
+        PRICE = 20₹🇮🇳 MONTHLY**
 	
-
-	**BASIC🎟️** 
-
-	Daily  Upload  limit 10GB
-
-	price Rs 20₹🇮🇳/ per Month
-
 	
-
-	**SUPER⚡**
-
+	**🅢︎🅤︎🅟︎🅔︎🅡︎⚡
 	Daily Upload limit 50GB
-
-	Price Rs 45₹🇮🇳/ per Month
-
+        PRICE = 45₹🇮🇳 MONTHLY**
 	
-
-	**DIAMOND💎**
-
+	
+	**🅓︎🅘︎🅐︎🅜︎🅞︎🅝︎🅓︎💎
 	Daily Upload limit 100GB
+	access of premium features
+	PRICE = 75₹🇮🇳 MONTHLY**
 
-	Price Rs 75₹🇮🇳/ per Month
-
-	access of premium features 
-
-	
 
 	**FOREIGN USER CONTACT ADMIN**
 
-	
 
 	CLICK 👇🏻**ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ** BUTTON TO UPGRADE PLAN"""
 
@@ -60,40 +48,28 @@ async def upgrade(bot,update):
 
 async def upgradecm(bot,message):
 
-	text = """**CHOOSE YOUR PREFERRED PLAN**
+	text = """**🅲︎🅷︎🅾︎🅾︎🆂︎🅴︎  🅰︎ 🅿︎🅻︎🅰︎🅽︎**
 
-	
 
-	**BASIC🎟️** 
-
+	**🅑︎🅐︎🅢︎🅘︎🅒︎🎟️
 	Daily  Upload  limit 10GB
+        PRICE = 20₹🇮🇳 MONTHLY** 
 
-	Price Rs 20₹🇮🇳/ per month
 
-	
-
-	**SUPER⚡**
-
+	**🅢︎🅤︎🅟︎🅔︎🅡︎⚡
 	Daily Upload limit 50GB
+        PRICE = 45₹🇮🇳 MONTHLY**
 
-	Price Rs 45₹🇮🇳/ per Month
 
-	
-
-	**DIAMOND💎**
-
+	**🅓︎🅘︎🅐︎🅜︎🅞︎🅝︎🅓︎💎
 	Daily Upload limit 100GB
-
-	Price Rs 75₹🇮🇳/ per Month
-
-	##access of premium features 
-
+	access of premium features
+        PRICE = 75₹🇮🇳 MONTHLY**
 	
-
+	
 	**FOREIGN USER CONTACT ADMIN**
 
 	
-
 	CLICK 👇🏻**ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ** BUTTON TO UPGRADE PLAN """
 
 	keybord = InlineKeyboardMarkup([[ 
