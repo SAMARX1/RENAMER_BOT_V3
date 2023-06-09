@@ -8,20 +8,20 @@ from pyrogram import Client , filters
 
 async def upgrade(bot,update):
 
-	text = """**🅲︎🅷︎🅾︎🅾︎🆂︎🅴︎  🅿︎🅻︎🅰︎🅽︎**
+	text = """**⭕𝗖𝗛𝗢𝗢𝗦𝗘  𝗔  𝗣𝗟𝗔𝗡⭕**
 
 
-	**🅑︎🅐︎🅢︎🅘︎🅒︎🎟️
+	**𝗕𝗔𝗦𝗜𝗖🎟️
         Daily Upload limit 10GB
         PRICE = 20₹🇮🇳 MONTHLY**
 	
 	
-	**🅢︎🅤︎🅟︎🅔︎🅡︎⚡
+	**𝗦𝗨𝗣𝗘𝗥⚡
 	Daily Upload limit 50GB
         PRICE = 45₹🇮🇳 MONTHLY**
 	
 	
-	**🅓︎🅘︎🅐︎🅜︎🅞︎🅝︎🅓︎💎
+	**𝗗𝗜𝗔𝗠𝗢𝗡𝗗💎
 	Daily Upload limit 100GB
 	access of premium features
 	PRICE = 75₹🇮🇳 MONTHLY**
@@ -48,20 +48,20 @@ async def upgrade(bot,update):
 
 async def upgradecm(bot,message):
 
-	text = """**🅲︎🅷︎🅾︎🅾︎🆂︎🅴︎  🅰︎ 🅿︎🅻︎🅰︎🅽︎**
+	text = """**𝗖𝗛𝗢𝗢𝗦𝗘  𝗔  𝗣𝗟𝗔𝗡**
 
 
-	**🅑︎🅐︎🅢︎🅘︎🅒︎🎟️
+	**𝗕𝗔𝗦𝗜𝗖🎟️
 	Daily  Upload  limit 10GB
         PRICE = 20₹🇮🇳 MONTHLY** 
 
 
-	**🅢︎🅤︎🅟︎🅔︎🅡︎⚡
+	**𝗦𝗨𝗣𝗘𝗥⚡
 	Daily Upload limit 50GB
         PRICE = 45₹🇮🇳 MONTHLY**
 
 
-	**🅓︎🅘︎🅐︎🅜︎🅞︎🅝︎🅓︎💎
+	**𝗗𝗜𝗔𝗠𝗢𝗡𝗗💎
 	Daily Upload limit 100GB
 	access of premium features
         PRICE = 75₹🇮🇳 MONTHLY**
