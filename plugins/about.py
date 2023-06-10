@@ -10,4 +10,8 @@ async def start(client,message):
 	data = find_one(int(botid))
 	total_rename = data["total_rename"]
 	total_size = data["total_size"]
-	await message.reply_text(f"⚡ᴠᴇʀsɪᴏɴ:6.3 \n⚡ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ 2023/05/15 \n\n**💡ᴛʀʏ  ᴍᴏʀᴇ  ғᴇᴀᴛᴜʀᴇs👇🏻 \n\n🚀𝘕𝘖𝘙𝘔𝘈𝘓  𝘍𝘌𝘈𝘛𝘜𝘙𝘌𝘚👇🏻 \n📌ʀᴇɴᴀᴍᴇ  ғɪʟᴇ  ᴏʀ  ᴠɪᴅᴇᴏ \n📌sᴇᴛ  ᴀᴜᴛᴏ  ᴄᴀᴘᴛɪᴏɴ \n📌sᴇᴛ  ᴛʜᴜᴍʙɴᴀɪʟ \n📌ғɪʟᴇ/ᴠɪᴅᴇᴏ  ᴄᴏɴᴠᴇʀᴛᴇʀ \n\n🚀𝘗𝘙𝘌𝘔𝘐𝘜𝘔  𝘍𝘌𝘈𝘛𝘜𝘙𝘌𝘚👇🏻  \n📌4ɢʙ  ᴜᴘʟᴏᴀᴅ  ʟɪᴍɪᴛ \n📌ᴠɪᴅᴇᴏ  ᴛʀɪᴍ  ᴀɴᴅ  ᴍᴇʀɢᴇ \n📌ᴀᴜᴅɪᴏ  ᴄʜᴀɴɢᴇ  ᴏʀ  ʀᴇᴍᴏᴠᴇ \n📌3x  ᴅᴏᴡɴʟᴏᴀᴅ  sᴘᴇᴇᴅ \n\n📦/upgrade  ᴘʟᴀɴ  ᴛᴏ  ᴜsᴇ  ᴘʀᴇᴍɪᴜᴍ  ғᴇᴀᴛᴜʀᴇs**",quote=True)
+	await message.reply_text(f"═════════════════════\n⚡ᴠᴇʀsɪᴏɴ:6.4 \n⚡ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ 2023/06/10 \n
+
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n**ғᴇᴀᴛᴜʀᴇs👇🏻** \n\n📦ʀᴇɴᴀᴍᴇ  ғɪʟᴇs / ᴠɪᴅᴇᴏ  🆓\n📦ᴄᴏɴᴠᴇʀᴛ ғɪʟᴇ  ᴛᴏ ᴠɪᴅᴇᴏ  🆓\n📦sᴇᴛ  ᴛʜᴜᴍʙɴᴀɪʟ ᴏɴ ᴠɪᴅᴇᴏ 🆓 \n📦sᴇᴛ  ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ  🆓\n📦4 ɢʙ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 👑\n📦3x ᴅᴏᴡɴʟᴏᴀᴅ sᴘᴇᴇᴅ👑\n📦ᴛʀɪᴍ & ᴍᴇʀɢᴇ ᴠɪᴅᴇᴏ 💎\n📦ᴀᴜᴅɪᴏ ᴄʜᴀɴɢᴇ & ʀᴇᴍᴏᴠᴇᴅ 💎\n\n **🆓 = all users can use\n👑 = only premium users can use\n💎 = only DIAMOND users can use**\n\n⚡**/upgrade 𝗣𝗟𝗔𝗡 𝗧𝗢 𝗨𝗦𝗘 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦** \n\n
+
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀",quote=True)
