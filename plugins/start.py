@@ -37,8 +37,8 @@ async def start(client, message):
     try:
         id = message.text.split(' ')[1]
     except:
-        txt=f"""ʜᴇʟʟᴏ{wish} {message.from_user.first_name } \n
-	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ **/about** ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs"""
+        txt=f"""**ʜᴇʟʟᴏ{wish} {message.from_user.first_name } \n
+	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ /about ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs**"""
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
@@ -51,7 +51,7 @@ async def start(client, message):
     if id:
         if old == True:
             try:
-                await client.send_message(id, "Your Friend is Already Using Our Bot")
+                await client.send_message(id, "**🙄ᴏʜʜᴏ , ʏᴏᴜʀ  ғʀɪᴇɴᴅ  ɪs  ᴀʟʀᴇᴀᴅʏ  ᴜsɪɴɢ  ᴏᴜʀ  ʙᴏᴛ , 🛡️ᴛʀʏ ᴀɴᴏᴛʜᴇʀ**")
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
@@ -68,9 +68,9 @@ async def start(client, message):
             limit = _user_["uploadlimit"]
             new_limit = limit + 536870912
             uploadlimit(int(id), new_limit)
-            await message.reply_text(text=f"""
+            await message.reply_text(text=f"""**
 	ʜᴇʟʟᴏ{wish} {message.from_user.first_name }\n\n
-	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ /about ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs
+	ᴛʜɪs  ɪs  ᴀ  ғᴀsᴛ⚡  4ɢʙ  ʀᴇɴᴀᴍᴇʀ  ʙᴏᴛ🤖  ᴡɪᴛʜ  ᴍᴜʟᴛɪ  ғᴇᴀᴛᴜʀᴇs . ʏᴏᴜ  ᴄᴀɴ  ᴇᴅɪᴛ🖌️  10  ғɪʟᴇs  sɪᴍᴜʟᴛᴀɴᴏᴜsʟʏ💡 .\n\nsᴇɴᴅ  ғɪʟᴇ  ᴏʀ ᴠɪᴅᴇᴏ  ᴛᴏ  ᴇᴅɪᴛ \n\nᴜsᴇ /about ᴄᴏᴍᴍᴀɴᴅ  ᴛᴏ  ᴄʜᴇᴄᴋ  ᴛʜɪs  ʙᴏᴛs  ғᴇᴀᴛᴜʀᴇs**
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
                                          [[InlineKeyboardButton("📐ʜᴏᴡ ᴛᴏ ᴇᴅɪᴛ🔧", url="https://telegra.ph/%CA%9C%E1%B4%8F%E1%B4%A1-%E1%B4%9B%E1%B4%8F-%E1%B4%87%E1%B4%85%C9%AA%E1%B4%9B-%D2%93%C9%AA%CA%9F%E1%B4%87-04-16")],
@@ -90,10 +90,10 @@ async def send_doc(client,message):
        	try:
        		await client.get_chat_member(update_channel, user_id)
        	except UserNotParticipant:
-       		await message.reply_text("😧ʏᴏᴜ  ᴀʀᴇ  ɴᴏᴛ  sᴜʙsᴄʀɪʙᴇᴅ  ᴍʏ  ᴜᴘᴅᴀᴛᴇ🛸  ᴄʜᴀɴɴᴇʟ \nᴊᴏɪɴ  ᴛᴏ  ɢᴇᴛ  ʟᴀᴛᴇsᴛ💖 ғᴇᴀᴛᴜʀᴇs  ᴀɴᴅ  ᴜᴘᴅᴀᴛᴇs ᴏғ  ᴛʜɪs  ʙᴏᴛ . \n\n👇🏻ᴊᴏɪɴ  ᴀɴᴅ  sᴇɴᴅ  ғɪʟᴇ  ᴀɢᴀɪɴ👇🏻",
+       		await message.reply_text("**😧ᴅᴜᴇ  ᴛᴏ  ᴏᴠᴇʀʟᴏᴀᴅ  ᴏɴʟʏ  ᴏᴜʀ  ᴄʜᴀɴɴᴇʟ  ᴍᴇᴍʙᴇʀs🕴️ ᴄᴀɴ  ᴜsᴇ  ᴛʜɪs  ʙᴏᴛ🤖\n\nɢᴇᴛ  🛰️ʟᴀᴛᴇsᴛ  ʙᴏᴛs ᴜᴘᴅᴀᴛᴇs , ɢʀᴏᴡɪɴɢ  ᴛᴜᴛᴏʀɪᴀʟ ᴇᴛᴄ. 👇🏻ᴊᴏɪɴ  ʜᴇʀᴇ  &  sᴇɴᴅ  ғɪʟᴇ  ᴀɢᴀɪɴ💣**",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("UPDATE CHANNEL🛸" ,url=f"https://t.me/{update_channel}") ]   ]))
+       		[ [ InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ  ᴄʜᴀɴɴᴇʟ🛸" ,url=f"https://t.me/{update_channel}") ]   ]))
        		return
        try:
            bot_data = find_one(int(botid))
@@ -101,14 +101,14 @@ async def send_doc(client,message):
            prsize = bot_data['total_size']
            user_deta = find_one(user_id)
        except:
-           await message.reply_text("ɪғ  ʏᴏᴜ  ᴀʀᴇ  sᴇᴇɴ ᴛʜɪs  . ᴛʜᴇɴ  ʙᴏᴛ  ɪs  ɴᴏᴛ  ʀᴇsᴘᴏɴᴅɪɴɢ  ᴘʀᴏᴘᴇʀʟʏ  ᴅᴜᴇ  ᴛᴏ  ᴏᴠᴇʀʟᴏᴀᴅ . \n\nᴋɪɴᴅʟʏ  ᴄʟᴇᴀʀ  ᴀʟʟ  ʜɪsᴛᴏʀʏ  ᴏғ  ʙᴏᴛ  ᴀɴᴅ  ʀᴇsᴛᴀʀᴛ  ᴛʜᴇ  ʙᴏᴛ . ɪғ  sᴀᴍᴇ  ᴇʀʀᴏʀ  ᴘᴏᴘᴜᴘ  ᴀɢᴀɪɴ  ᴛʜᴇɴ  ᴄᴏɴᴛᴀᴄᴛ  ᴛʜᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ")
+           await message.reply_text("**ɪғ  ʏᴏᴜ  ᴀʀᴇ  sᴇᴇɴ  ᴛʜɪs . ᴛʜᴇɴ  ʙᴏᴛ  ɪs  ᴏᴠᴇʀʟᴏᴀᴅᴇᴅ🤥 . \n\nᴋɪɴᴅʟʏ  ᴅᴏ  ᴛʜᴇ  ᴘʀᴏᴄᴇss  ɢɪᴠᴇɴ👇🏻  ʙᴇʟᴏᴡ  &  ʀᴇsᴛᴀʀᴛ  ᴛʜᴇ  ʙᴏᴛ. ᴀɴʏ  ʜᴇʟᴘ🐶  ᴛʜᴇɴ  ᴄᴏɴᴛᴀᴄᴛ  ᴛʜᴇ  ᴅᴇᴠᴇʟᴏᴘᴇʀ**")
        try:
        	used_date = user_deta["date"]
        	buy_date= user_deta["prexdate"]
        	daily = user_deta["daily"]
        	user_type = user_deta["usertype"]
        except:
-           await message.reply_text("database has been Cleared click on /start")
+           await message.reply_text("**ᴏᴠᴇʀʟᴏᴀᴅ  ʜᴀs  ʙᴇᴇɴ  ᴄʟᴇᴀʀᴇᴅ  ᴄʟɪᴄᴋ👉🏻 /about**")
            return
            
            
@@ -123,7 +123,7 @@ async def send_doc(client,message):
        conversion = datetime.timedelta(seconds=left)
        ltime = str(conversion)
        if left > 0:       	    
-       	await message.reply_text(f"```ʏᴏᴜ  ᴀʀᴇ  ᴀ  🙂ғʀᴇᴇ  ᴜsᴇʀ  sᴏ  ᴡᴀɪᴛ ⚠️{ltime}⚠️ ᴛᴏ  ᴇᴅɪᴛ  ᴀɢᴀɪɴ  .  \n\nɢᴇᴛ  ᴘʀᴇᴍɪᴜᴍ⭐  ᴛᴏ  ᴀᴠᴏɪᴅ  ᴛɪᴍᴇ⌛ ʟɪᴍɪᴛ  ᴀɴᴅ  ɢᴇᴛ  ᴍᴏʀᴇ  ғᴇᴀᴛᴜʀᴇs📦```",reply_to_message_id = message.id)
+       	await message.reply_text(f"```ʏᴏᴜ  ᴀʀᴇ  ᴀ  🙂ғʀᴇᴇ  ᴜsᴇʀ  sᴏ  ᴡᴀɪᴛ ⚠️{ltime}⚠️ ᴛᴏ  ᴇᴅɪᴛ  ᴀɢᴀɪɴ  .  \n\nɢᴇᴛ  ᴘʀᴇᴍɪᴜᴍ⭐  ᴛᴏ  ᴀᴠᴏɪᴅ  ᴛɪᴍᴇ⌛ ɢᴀᴘ  ᴀɴᴅ  ɢᴇᴛ  ᴍᴏʀᴇ  ғᴇᴀᴛᴜʀᴇs📦```",reply_to_message_id = message.id)
        else:
        		# Forward a single message
            		
