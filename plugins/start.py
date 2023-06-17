@@ -115,15 +115,15 @@ async def send_doc(client,message):
        c_time = time.time()
        
        if user_type=="Free":
-           LIMIT = 600
+           LIMIT = 620
        else:
-           LIMIT = 10
+           LIMIT = 140
        then = used_date+ LIMIT
        left = round(then - c_time)
        conversion = datetime.timedelta(seconds=left)
        ltime = str(conversion)
        if left > 0:       	    
-       	await message.reply_text(f"```ʏᴏᴜ  ᴀʀᴇ  ᴀ  🙂ғʀᴇᴇ  ᴜsᴇʀ  sᴏ  ᴡᴀɪᴛ ⚠️{ltime}⚠️ ᴛᴏ  ᴇᴅɪᴛ  ᴀɢᴀɪɴ  .  \n\nɢᴇᴛ  ᴘʀᴇᴍɪᴜᴍ⭐  ᴛᴏ  ᴀᴠᴏɪᴅ  ᴛɪᴍᴇ⌛ ɢᴀᴘ  ᴀɴᴅ  ɢᴇᴛ  ᴍᴏʀᴇ  ғᴇᴀᴛᴜʀᴇs📦```",reply_to_message_id = message.id)
+       	await message.reply_text(f"```**🙂ᴡᴀɪᴛ ⏳{ltime}⌛ ᴛᴏ  ᴇᴅɪᴛ  ᴀɢᴀɪɴ . ғʟᴏᴏᴅ  ᴡᴀɪᴛ🚦 ᴛɪᴍᴇ  ɪs  ʀᴜɴɴɪɴɢ⏲️  ᴛᴏ  ᴘʀᴇᴠᴇɴᴛ  ᴇʀʀᴏʀ👾, ɢʟɪᴛᴄʜ, ᴀɴᴅ  sʟᴏᴡ ⏱️sᴘᴇᴇᴅ**. \n\nɴᴏᴛᴇ - ᴘʀᴇᴍɪᴜᴍ⭐ ᴜsᴇʀs  ɢᴇᴛ  sᴍᴀʟʟ  ᴛɪᴍᴇ⌛ ɢᴀᴘ```",reply_to_message_id = message.id)
        else:
        		# Forward a single message
            		
